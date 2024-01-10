@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Google Console Bulk URL Remover",
+    "version": "1.2",
+    "description": "A free tool to automate removal of URLs in bulk.",
+    "author": "contact@nikitakostin.com",
+    "icons": {
+      "128": "img/icon.png"
+    },
+    "permissions": [
+      "scripting",
+      "activeTab",
+      "storage"
+    ],
+    "action": {
+      "default_popup": "index.html"
+    },
+    "host_permissions": [
+        "https://search.google.com/*"
+    ]
+  }
